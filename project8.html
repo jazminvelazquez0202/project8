@@ -1,61 +1,56 @@
 <!DOCTYPE html>
 <html>
  <head> 
-  <title> Real 5-Day Forecast </title> 
-<link rel="stylesheet" href="project8style.css" type="text/css"> 
+  <title> CSS Table Styling </title> 
+<link rel="stylesheet" type="text/css" href="project8style.css">
 
 </head> 
 
 <body> 
-   <h1>Five Day Forecast</h1>
+   <h1 id="headline">Five Day Forecast</h1>
 <table>
 
 	<tr>
-		<td class="days">Monday</td>
-		<td class="days">Tuesday</td>
-		<td class="days">Wednesday</td>
-		<td class="days">Thursday</td>
-		<td class="days">Friday</td>
+		<th>Monday</th>
+		<th>Tuesday</th>
+		<th>Wednesday</th>
+		<th>Thursday</th>
+		<th>Friday</th>
 	</tr>
-	<tr>
-		<td class="red forecast">68</td>
-		<td class="red forecast">68</td>
-		<td class="red forecast">70</td>
-		<td class="red forecast">73</td>
-		<td class="red forecast">62</td>
+	
+	<tr class="second-row">
+		<td>68</td>
+		<td >68</td>
+		<td>70</td>
+		<td> 73</td>
+		<td>62</td>
 	</tr>
-	<tr>
-		<td class="blue forecast">53</td>
-		<td class="blue forecast">56</td>
-		<td class="blue forecast">52</td>
-		<td class="blue forecast">58</td>
-		<td class="blue forecast">50</td>
+	<tr class="third-row">
+		<td>53</td>
+		<td>56</td>
+		<td>52</td>
+		<td>58</td>
+		<td>50</td>
 	</tr>
-	<tr>
-		<td class="forecast">Thunderstorms</td>
-		<td class="forecast">Partly Cloudy</td>
-		<td class="forecast">Chance of Rain</td>
-		<td class="forecast">Clear</td>
-		<td class="forecast">Windy</td>
-	<tr>
+	
+	<tr class="fourth-row">
+		<td>Thunderstorms</td>
+		<td>Partly Cloudy</td>
+		<td>Chance of Rain</td>
+		<td>Clear</td>
+		<td>Windy</td>
 	</tr>
-		<td class="forecast">
-	        <img src="thunderstorm.jpg" alt="Thunderstorm" style="width: 100px; height: 100px;">
-	        </td>
-	       <td class="forecast">
-		<img src="Weather Icons/partlycloudy.png" alt="Partly Cloudy" style="width:100px; height:100px";>
-	          </td>
-	        <td class="forecast">
-	         <img src="Weather Icons/chanceofrain.png" alt="Chance of Rain" style="width:100px; height:100px";>
-	          </td>
-	          <td class="forecast">
-		  <img scr="Weather Icons/clear.png" alt="Clear" style="width:100px; height:100px";>
-	          </td>
-	         <td class="forecast">
-		<img src="Weather Icons/windy.png" alt="Windy" style="width:100px; height:100px";>
-	    </td>
+		
+	<tr class="fifth-row">
+		<td><img src="thunderstorm.jpg" alt="Thunderstorm" width:"55" height: "58"></td>
+	       <td><img src="Weather Icons/partlycloudy.png" alt="Partly Cloudy width:"55" height:"58";></td>
+	        <td><img src="Weather Icons/chanceofrain.png" alt="Chance of Rain" "width:55 height:100px";></td>
+	          <td><img src="Weather Icons/clear.png" alt="Clear" style="width:100px; height:100px";></td>
+	         <td><img src="Weather Icons/windy.png" alt="Windy "width:"55" height:"58"></td>
+	</tr>
 	    
 </table> 
+	
 </body>
 
 </html>
